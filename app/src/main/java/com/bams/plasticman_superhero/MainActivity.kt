@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
                 binding.powerstatsCard.findViewById<TextView>(R.id.tvStrength).text = "Strength: ${superhero.powerstats.strength}"
                 binding.powerstatsCard.findViewById<TextView>(R.id.tvPower).text = "Power: ${superhero.powerstats.power}"
                 binding.powerstatsCard.findViewById<TextView>(R.id.tvDurability).text = "Durability: ${superhero.powerstats.durability}"
+                binding.powerstatsCard.findViewById<TextView>(R.id.tvSpeed).text = "Speed: ${superhero.powerstats.speed}"
+                binding.powerstatsCard.findViewById<TextView>(R.id.tvCombat).text = "Combat: ${superhero.powerstats.combat}"
             } else {
                 Log.d("MainActivity", "No superhero data received")
             }
