@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 binding.biographyCard.findViewById<TextView>(R.id.tvFirstAppearance).text = "First Appearance: ${superhero.biography.firstAppearance}"
                 binding.biographyCard.findViewById<TextView>(R.id.tvAlignment).text = "Alignment: ${superhero.biography.alignment}"
                 binding.biographyCard.findViewById<TextView>(R.id.tvRelatives).text = "Relatives: ${superhero.connections.relatives}"
-                binding.biographyCard.findViewById<TextView>(R.id.tvGroup).text = "Publisher: ${superhero.connections.groupaffiliation}"
+                binding.biographyCard.findViewById<TextView>(R.id.tvGroup).text = "Grouop Affiliation: ${superhero.connections.groupaffiliation}"
                 // Set the text views with the superhero powerstats and powerbar-10121030
                 binding.powerstatsCard.findViewById<TextView>(R.id.tvIntelligence).text = "Intelligence: ${superhero.powerstats.intelligence}"
                 binding.powerstatsCard.findViewById<ProgressBar>(R.id.pbIntelligence).progress = superhero.powerstats.intelligence ?: 0
