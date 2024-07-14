@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Plasticman_Superhero</string>
-    <string name="title">Bat Computer</string>
+    <string name="title">Bat App</string>
     <!-- Biography -->
     <string name="fullname">Full Name:</string>
     <string name="alignment">Alignment:</string>
