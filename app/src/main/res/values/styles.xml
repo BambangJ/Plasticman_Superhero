@@ -1,28 +1,28 @@
 <resources>
-    <!-- Base application theme -->
+    <!-- Base application theme-10121030 -->
     <style name="Theme.Plasticman_Superhero" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary branding color. -->
+        <!-- Primary branding color-10121030. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/textColorPrimary</item>
-        <!-- Secondary branding color. -->
+        <!-- Secondary branding color-10121030. -->
         <item name="colorSecondary">@color/colorAccent</item>
         <item name="colorOnSecondary">@color/textColorSecondary</item>
-        <!-- Background color. -->
+        <!-- Background color-10121030. -->
         <item name="android:windowBackground">@color/backgroundColor</item>
         <item name="android:colorBackground">@color/backgroundColor</item>
-        <!-- Card background color. -->
+        <!-- Card background color-10121030. -->
         <item name="cardViewStyle">@style/Widget.CardView</item>
     </style>
 
-    <!-- CardView style -->
+    <!-- CardView style-10121030 -->
     <style name="Widget.CardView" parent="Widget.MaterialComponents.CardView">
         <item name="cardBackgroundColor">@color/cardBackgroundColor</item>
         <item name="cardElevation">8dp</item>
         <item name="cardCornerRadius">8dp</item>
     </style>
 
-    <!-- Text styles -->
+    <!-- Text styles-10121030 -->
     <style name="SuperheroText.Title" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:textSize">20sp</item>
@@ -33,7 +33,7 @@
         <item name="android:textSize">16sp</item>
     </style>
 
-    <!-- Circle ImageView style -->
+    <!-- Circle ImageView style-10121030 -->
     <style name="CircleImageView">
         <item name="shapeAppearanceOverlay">@style/CircleImageViewShape</item>
     </style>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Plasticman_Superhero</string>
-    <string name="title">Bat App</string>
-    <!-- Biography -->
+    <string name="app_name">Plastic Man</string>
+    <string name="title">Plastic Man</string>
+    <!-- Biography-10121030 -->
     <string name="fullname">Full Name:</string>
     <string name="alignment">Alignment:</string>
     <string name="firstappearance">First Appearance:</string>
     <string name="biography">Biography</string>
-    <!-- Powerstats -->
+    <!-- Powerstats-10121030 -->
     <string name="intelligence">Intelligence:</string>
     <string name="Strength">Strength:</string>
     <string name="power">Power:</string>
@@ -15,7 +15,16 @@
     <string name="powerstats">Power Stats</string>
     <string name="speed">Speed:</string>
     <string name="combat">Combat:</string>
-    <!--connection-->
+    <!--connection-10121030-->
     <string name="group">Group Affiliation:</string>
     <string name="relatives">Relatives:</string>
+    <!--Appearance-10121030-->
+    <string name="appearance">Appearance</string>
+    <string name="eyecolor">Eye Color:</string>
+    <string name="race">Race:</string>
+    <string name="haircolor">Hair Color:</string>
+    <string name="gender">Gender:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+
 </resources>

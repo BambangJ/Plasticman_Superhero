@@ -11,16 +11,17 @@ data class Superhero(
     val biography: Biography,
     val connections: Connections,
     @SerializedName("image")
-    val image: Image
+    val image: Image,
+    val appearance: Appearance
 )
 
 data class PowerStats(
-    val intelligence: String,
-    val strength: String,
-    val speed: String,
-    val durability: String,
-    val power: String,
-    val combat: String
+    val intelligence: Int,
+    val strength: Int,
+    val speed: Int,
+    val durability: Int,
+    val power: Int,
+    val combat: Int
 )
 
 
