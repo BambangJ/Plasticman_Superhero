@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plasticman_Superhero</string>
+    <!-- Biography -->
+    <string name="fullname">Full Name:</string>
+    <string name="alignment">Alignment:</string>
+    <string name="firstappearance">First Appearance:</string>
+    <!-- Powerstats -->
+    <string name="intelligence">Intelligence:</string>
+    <string name="Strength">Strength:</string>
+    <string name="power">Power:</string>
+    <string name="durability">Durability:</string>
+    <string name="powerstats">Power Stats</string>
+    <string name="speed">Speed:</string>
+    <string name="combat">Combat:</string>
+    <!--connection-->
+    <string name="group">Group Affiliation:</string>
+    <string name="relatives">Relatives:</string>
+</resources>
