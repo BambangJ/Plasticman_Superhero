@@ -64,17 +64,28 @@
                         android:layout_height="wrap_content"
                         android:text="@string/biography" />
 
+                    <View
+                        android:id="@+id/divider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="?android:attr/listDivider"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@color/cardview_light_background" />
+
                     <TextView
                         android:id="@+id/tvFullName"
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/fullname" />
 
                     <TextView
                         android:id="@+id/tvFirstAppearance"
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
                         android:text="@string/firstappearance" />
 
@@ -83,6 +94,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/alignment" />"
 
                     <TextView
@@ -90,6 +102,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/group" />
 
                     <TextView
@@ -97,6 +110,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/relatives" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -121,6 +135,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/powerstats" />
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="?android:attr/listDivider"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@color/cardview_light_background" />
 
                     <TextView
                         android:id="@+id/tvIntelligence"
@@ -263,13 +286,23 @@
                         style="@style/SuperheroText.Title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/appearance" />
+                    <View
+                        android:id="@+id/divider3"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="?android:attr/listDivider"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@color/cardview_light_background" />
 
                     <TextView
                         android:id="@+id/tvGender"
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/gender" />
 
                     <TextView
@@ -277,6 +310,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/race" />
 
                     <TextView
@@ -284,6 +318,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/height" />
 
                     <TextView
@@ -291,6 +326,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/weight" />
 
                     <TextView
@@ -298,6 +334,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/eyecolor" />
 
                     <TextView
@@ -305,6 +342,7 @@
                         style="@style/SuperheroText.Subtitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:text="@string/haircolor" />
 
                 </LinearLayout>
